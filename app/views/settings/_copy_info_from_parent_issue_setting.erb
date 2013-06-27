@@ -1,0 +1,10 @@
+<p>
+  <%= content_tag(:label, l(:label_copy_start_date), :style => "width: 300px; padding-right: 5px;") %>
+  <%= check_box_tag 'settings[copy_start_date]', true, Setting.plugin_copy_info_from_parent_issue[:copy_start_date]%><br />
+</p>
+
+<p>
+  <%= content_tag(:label, l(:label_copy_due_date), :style => "width: 300px; padding-right: 5px;") %>
+  <%= check_box_tag 'settings[copy_due_date]', true, Setting.plugin_copy_info_from_parent_issue[:copy_due_date]%><br />
+</p>
+

@@ -1,0 +1,4 @@
+ja:
+  
+  label_copy_start_date: "開始日が未入力の場合、親チケットからコピーする"
+  label_copy_due_date: "期日が未入力の場合、親チケットからコピーする"
